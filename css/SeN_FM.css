@@ -1,0 +1,153 @@
+/* -- Display -- */
+
+.Block {
+    display: block;
+}
+
+.Inline-Block {
+    display: inline-block;
+}
+
+.None {
+    display: none;
+}
+
+
+/* -- Display -- */
+
+/* -- Text-Align -- */
+
+.Center {
+    text-align: center;
+}
+
+.Right {
+    text-align: right;
+}
+
+
+/* -- Text-Align -- */
+
+/* -- margin -- */
+
+.margin-0 {
+    margin: 0 !important;
+}
+
+.margin-10 {
+    margin: 10px;
+}
+
+.margin-top-5 {
+    margin-top: 5px;
+}
+.margin-top-9{
+    margin-top: 9px
+}
+.margin-top-10 {
+    margin-top: 10px;
+}
+
+.margin-top-20 {
+    margin-top: 20px;
+}
+
+.margin-top-40 {
+    margin-top: 40px;
+}
+
+.margin-right {
+    margin-right: auto;
+}
+
+.margin-right-10 {
+    margin-right: 10px;
+}
+
+.margin-bottom-0 {
+    margin-bottom: 0;
+}
+
+.margin-bottom-10 {
+    margin-bottom: 10px;
+}
+
+.margin-left {
+    margin-left: auto;
+}
+.margin-left-50{
+    margin-left: 50px;
+}
+.margin-left-37-{
+    margin-left: 37%;
+}
+
+/* -- margin -- */
+
+/* -- padding --*/
+
+.padding-0 {
+    padding: 0!important;
+}
+
+.padding-30 {
+    padding: 30px !important;
+}
+.padding-16-27{
+    padding:16px 27px;
+}
+.padding-top-0{
+    padding-top: 0;
+}
+.padding-top-5 {
+    padding-top: 5px;
+}
+
+.padding-top-20 {
+    padding-top: 20px;
+}
+
+.padding-top-40 {
+    padding-top: 40px;
+}
+
+.padding-left-right-20 {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.padding-left-right-40 {
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.padding-left-right-60 {
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+.padding-bottom-5 {
+    padding-bottom: 5px;
+}
+
+/* -- padding --*/
+
+/* -- font size -- */
+
+.font-size-10 {
+    font-size: 10px;
+}
+.font-size-13 {
+    font-size: 13px;
+}
+
+.font-size-20 {
+    font-size: 20px;
+}
+
+.font-size-30 {
+    font-size: 30px;
+}
+
+
+/* -- font size -- */

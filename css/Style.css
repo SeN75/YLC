@@ -9,3 +9,135 @@
     
 }
 /* --  media /-- */
+
+
+/* ==========================================================================
+/* ===== Edges  ===== */ 
+/*========================================================================== */
+.angle-edge-top-right-bottom-right {
+  position: relative;
+  position: relative;
+  padding: 60px 0 80px 0; }
+  .angle-edge-top-right-bottom-right::before {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' preserveAspectRatio='none' viewBox='0 0 100 35' fill='rgb(238, 230, 242)' fill-opacity='1'%3E%3Cpolygon points='0,0 100,0 0,35'%3E%3C/polygon%3E%3C/svg%3E");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    content: '';
+    height: 35px;
+    left: 0;
+    position: absolute;
+    right: 0;
+    width: 100%;
+    z-index: 1;
+    top: -2px; }
+  .angle-edge-top-right-bottom-right::after {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' preserveAspectRatio='none' viewBox='0 0 100 35' fill='rgb(238, 230, 242)' fill-opacity='1'%3E%3Cpolygon points='0,35 100,35 100,0'%3E%3C/polygon%3E%3C/svg%3E");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    content: '';
+    height: 35px;
+    left: 0;
+    position: absolute;
+    right: 0;
+    width: 100%;
+    z-index: 1;
+    bottom: -2px; }
+
+.angle-edge-top-left-bottom-left {
+  position: relative;
+  position: relative;
+  padding: 60px 0 80px 0; }
+  .angle-edge-top-left-bottom-left::before {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' preserveAspectRatio='none' viewBox='0 0 100 35' fill='rgb(238, 230, 242)' fill-opacity='1'%3E%3Cpolygon points='0,0 100,35 100,0'%3E%3C/polygon%3E%3C/svg%3E");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    content: '';
+    height: 35px;
+    left: 0;
+    position: absolute;
+    right: 0;
+    width: 100%;
+    z-index: 1;
+    top: -2px; }
+  .angle-edge-top-left-bottom-left::after {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' preserveAspectRatio='none' viewBox='0 0 100 35' fill='rgb(238, 230, 242)' fill-opacity='1'%3E%3Cpolygon points='0,35 100,35 0,0'%3E%3C/polygon%3E%3C/svg%3E");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    content: '';
+    height: 35px;
+    left: 0;
+    position: absolute;
+    right: 0;
+    width: 100%;
+    z-index: 1;
+    bottom: -2px; }
+
+.angle-edge-top-right-bottom-left {
+  position: relative;
+  position: relative;
+  padding: 60px 0 80px 0; }
+  .angle-edge-top-right-bottom-left::before {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' preserveAspectRatio='none' viewBox='0 0 100 35' fill='rgb(238, 230, 242)' fill-opacity='1'%3E%3Cpolygon points='0,0 100,0 0,35'%3E%3C/polygon%3E%3C/svg%3E");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    content: '';
+    height: 35px;
+    left: 0;
+    position: absolute;
+    right: 0;
+    width: 100%;
+    z-index: 1;
+    top: -2px; }
+  .angle-edge-top-right-bottom-left::after {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' preserveAspectRatio='none' viewBox='0 0 100 35' fill='rgb(238, 230, 242)' fill-opacity='1'%3E%3Cpolygon points='0,35 100,35 0,0'%3E%3C/polygon%3E%3C/svg%3E");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    content: '';
+    height: 35px;
+    left: 0;
+    position: absolute;
+    right: 0;
+    width: 100%;
+    z-index: 1;
+    bottom: -2px; }
+
+.angle-edge-top-left-bottom-right {
+  position: relative;
+  position: relative;
+  padding: 60px 0 80px 0; }
+  .angle-edge-top-left-bottom-right::before {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' preserveAspectRatio='none' viewBox='0 0 100 35' fill='rgb(238, 230, 242)' fill-opacity='1'%3E%3Cpolygon points='0,0 100,35 100,0'%3E%3C/polygon%3E%3C/svg%3E");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    content: '';
+    height: 35px;
+    left: 0;
+    position: absolute;
+    right: 0;
+    width: 100%;
+    z-index: 1;
+    top: -2px; }
+  .angle-edge-top-left-bottom-right::after {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' preserveAspectRatio='none' viewBox='0 0 100 35' fill='rgb(238, 230, 242)' fill-opacity='1'%3E%3Cpolygon points='0,35 100,35 100,0'%3E%3C/polygon%3E%3C/svg%3E");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    content: '';
+    height: 35px;
+    left: 0;
+    position: absolute;
+    right: 0;
+    width: 100%;
+    z-index: 1;
+    bottom: -2px; }
+
+/* ==========================================================================
+/* ===== Typography  ===== */
+/*========================================================================== */

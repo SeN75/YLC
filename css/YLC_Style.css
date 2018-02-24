@@ -1,7 +1,7 @@
 /* --/ text color = tColor-   -- */
 
 .tColor-0 {
-    color: #fff;
+    color: #fff !important;
 }
 
 .tColor-1 {
@@ -85,7 +85,7 @@
 }
 
 * {
-	font-family: Bukra-light;
+	font-family: Bukra;
 }
 h2{
 	font-family: Bukra;

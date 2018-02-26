@@ -58,6 +58,12 @@
     margin-top: 40px;
 }
 
+.margin-right-1{
+    margin-right: 1px !important;
+}
+.margin-right-2{
+    margin-right: 2px;
+}
 .margin-right {
     margin-right: auto;
 }
@@ -76,6 +82,12 @@
 
 .margin-left {
     margin-left: auto;
+}
+.margin-left-1{
+    margin-left: 1px !important;
+}
+.margin-left-2{
+    margin-left: 2pc;
 }
 .margin-left-50{
     margin-left: 50px;
@@ -159,7 +171,9 @@
     font-size: 30px;
 }
 
-
+.font-size-40{
+    font-size: 40px;
+}
 /* -- font size /-- */
 
 /* --/ height -- */

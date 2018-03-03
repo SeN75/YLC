@@ -1,0 +1,365 @@
+.navbar{
+      min-height: 90px;
+      z-index: 1030;
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      background-color: #ffffff;
+      margin-bottom: 90px;
+}
+
+main{
+  margin-top:80px;
+  position: relative;
+}
+
+.dropdown-menu{
+  text-align: initial;
+  border: none;
+  border-radius: 0;
+  padding-top:30px;
+  background-color: #910c11;
+  color: #ffffff;
+  margin: 0px;
+}
+html[dir="rtl"] .dropdown-menu{
+      right: 0;
+      left: auto;
+
+}
+.dropdown-item{
+  color: #ffffff;
+}
+.dropdown-item:hover{
+  color: #910c11;
+}
+html[dir="ltr"] .curve-dorpdown-border-top,
+html:not([dir]) .curve-dorpdown-border-top,
+html[dir=""] .curve-dorpdown-border-top {-webkit-clip-path: polygon(0 0%, 100% 15%, 100% 100%, 0 100%);clip-path: polygon(0 0%, 100% 15%, 100% 100%, 0 100%);}
+
+html[dir="rtl"] .curve-dorpdown-border-top {-webkit-clip-path: polygon(0 15%, 100% 0%, 100% 100%, 0 100%);clip-path: polygon(0 15%, 100% 0%, 100% 100%, 0 100%);}
+
+
+/* Start Style sections */
+:root {
+  --red-color: #910c11;
+  --white-color:#ffffff;
+  --gray-color:#f2f2f2;
+  --darkgray-color: #414041;
+}
+
+section{
+  position: relative;
+  min-height:90vh;
+  z-index: 1;
+  padding: 10px 10px 100px 10px;
+  border: none !important;
+}
+
+
+  /*start social icon*/
+.social-widget ul{
+  list-style: none;
+}
+.social-widget ul li a{
+  display: block;
+  width: 40px;
+  height: 40px;
+  padding: 10px;
+  margin: 10px 0;
+  background-color: #910c11;
+  -webkit-border-radius: 50%;
+-moz-border-radius:  50%;
+border-radius:  50%; 
+color: #ffffff;
+text-align: center;
+}
+.social-widget ul li a:hover,.social-widget ul li a:focus,.social-widget ul li a:active{
+  background-color: #ffffff;
+  color: #910c11;
+}
+
+html[dir="rtl"] .social-widget{
+  position: fixed;
+  left: 50px;
+  top: 150px;
+  z-index: 1000;
+}
+html[dir="ltr"] .social-widget,
+html:not([dir]) .social-widget,
+html[dir=""] .social-widget{
+  position: fixed;
+   right: 50px;
+  top: 150px;
+  z-index: 1000;
+}
+
+
+@media (min-width: 768px){
+  section div {
+    position: relative;
+    margin: 100px 100px 25px 100px;
+    z-index: 100;
+    opacity: 1;
+  }  
+  .sliderText{
+    margin-top:250px; 
+  }
+
+}
+@media (min-width: 320px) and (max-width: 700px){
+  section div {
+    position: relative;
+    margin: 20px 10px;
+    z-index: 100;
+    opacity: 1;
+  } 
+
+}
+section div h1{
+  padding: 20px;
+}
+section.hieght-50{
+  height: 50vh;
+}
+@keyframes changeHieght {
+  0% {
+    height: 0px;
+  }
+  100% {
+    height: 100px;
+  }
+}
+.header::after{
+  animation: 1s ease-in 0s 1 changeHieght;
+}
+
+
+
+section::before,section::after{
+  content: "";
+  position: absolute;
+  pointer-events: none;
+  z-index: 100;
+  width: 100%;
+  right: 0;
+  height: 100px;
+  
+
+}
+
+.header-bg{
+background: #ffffff url(../images/Header.png) no-repeat center center fixed;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+  color: #ffffff;
+  opacity: 0.8;
+}
+
+.specialities-bg{
+  background: #ffffff url(../images/Specialities_bg.png) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  color: #ffffff;
+  opacity: 0.8;
+  z-index: -1;
+}
+
+html[dir="ltr"] .overlayToRight::before,
+html:not([dir]) .overlayToRight::before,
+html[dir=""] .overlayToRight::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      z-index: 1;
+      background: linear-gradient(to bottom right,rgba(255, 0, 0, 0.40), rgba(255, 0, 0, 0));
+      height: auto;
+      }
+
+html[dir="rtl"] .overlayToRight::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1;
+  background: linear-gradient(to bottom left,rgba(255, 0, 0, 0.40), rgba(255, 0, 0, 0));
+  height: auto;
+}
+
+
+
+html[dir="ltr"] .overlayToLeft::before,
+html:not([dir]) .overlayToLeft::before,
+html[dir=""] .overlayToLeft::before {
+      content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1;
+      background: linear-gradient(to bottom left,rgba(255, 0, 0, 0.40), rgba(255, 0, 0, 0));
+      height: auto;
+      }
+
+html[dir="rtl"] .overlayToLeft::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1;
+      background: linear-gradient(to bottom right,rgba(255, 0, 0, 0.40), rgba(255, 0, 0, 0));
+      height: auto;
+}
+
+
+
+html[dir="ltr"] section.toRightBefore::before,
+html:not([dir]) section.toRightBefore::before,
+html[dir=""] section.toRightBefore::before{
+  margin-top: -55px;
+  -webkit-transform: rotate(4deg) scale(1.7);
+  -moz-transform: rotate(4deg) scale(1.7);
+  -ms-transform: rotate(4deg) scale(1.7);
+  transform: rotate(4deg) scale(1.7);
+}
+html[dir="rtl"] section.toRightBefor::before{
+    
+    margin-top: -55px;
+  -webkit-transform: rotate(-4deg) scale(1.7);
+  -moz-transform: rotate(-4deg) scale(1.7);
+  -ms-transform: rotate(-4deg) scale(1.7);
+  transform: rotate(-4deg) scale(1.7);
+}
+
+
+
+
+html[dir="ltr"] section.toRightAfter::after,
+html:not([dir]) section.toRightAfter::after,
+html[dir=""] section.toRightAfter::after{
+   margin-bottom: -55px;
+   -webkit-transform: rotate(4deg) scale(1.7);
+  -moz-transform: rotate(4deg) scale(1.7);
+  -ms-transform: rotate(4deg) scale(1.7);
+  transform: rotate(4deg) scale(1.7);
+   top: auto;
+   bottom: 0;
+}
+html[dir="rtl"] section.toRightAfter::after{
+    margin-bottom: -55px;
+    -webkit-transform: rotate(-4deg) scale(1.7);
+  -moz-transform: rotate(-4deg) scale(1.7);
+  -ms-transform: rotate(-4deg) scale(1.7);
+  transform: rotate(-4deg) scale(1.7);
+    top: auto;
+    bottom: 0;
+}
+
+
+
+
+html[dir="ltr"] section.toLeftBefore::before,
+html:not([dir]) section.toLeftBefore::before,
+html[dir=""] section.toLeftBefore::before{
+  
+    margin-top: -55px;
+  -webkit-transform: rotate(-4deg) scale(1.7);
+  -moz-transform: rotate(-4deg) scale(1.7);
+  -ms-transform: rotate(-4deg) scale(1.7);
+  transform: rotate(-4deg) scale(1.7);
+}
+html[dir="rtl"] section.toLeftBefore::before{
+    
+    margin-top: -55px;
+  -webkit-transform: rotate(4deg) scale(1.7);
+  -moz-transform: rotate(4deg) scale(1.7);
+  -ms-transform: rotate(4deg) scale(1.7);
+  transform: rotate(4deg) scale(1.7);
+}
+
+
+html[dir="ltr"] section.toLeftAfter::after,
+html:not([dir]) section.toLeftAfter::after,
+html[dir=""] section.toLeftAfter::after{
+  
+  margin-bottom: -55px;
+  -webkit-transform: rotate(-4deg) scale(1.7);
+  -moz-transform: rotate(-4deg) scale(1.7);
+  -ms-transform: rotate(-4deg) scale(1.7);
+  transform: rotate(-4deg) scale(1.7);
+  top: auto;
+  bottom: 0px;
+}
+html[dir="rtl"] section.toLeftAfter::after{
+    
+    margin-bottom: -55px;
+  -webkit-transform: rotate(4deg) scale(1.7);
+  -moz-transform: rotate(4deg) scale(1.7);
+  -ms-transform: rotate(4deg) scale(1.7);
+  transform: rotate(4deg) scale(1.7);
+    top: auto;
+    bottom: 0;
+}
+
+
+.red{
+  color: #ffffff;
+  background-color: var(--red-color);
+}
+.white{
+  color: #222222;
+  background-color: var(--white-color);
+}
+.gray{
+  color: #ffffff;
+  background-color: var(--gray-color);
+}
+.darkgray{
+  color: #ffffff;
+  background-color: var(--darkgray-color);
+}
+footer{
+  min-height: 10vh;
+}
+
+/*set color for after div*/
+.header::after{
+  background-color: var(--white-color) !important;
+}
+.about::after{
+  background-color: var(--red-color) !important;
+}
+.values::after{
+  background-color: var(--red-color) !important;
+}
+.specialities::after{
+ background-color: var(--white-color) !important;  
+}
+.program::after{
+ background-color: var(--red-color) !important;   
+}
+.proud::after{
+ background-color: var(--white-color) !important;    
+}
+.news::after{
+ background-color: var(--gray-color) !important;     
+}
+.team::after{
+  background-color: var(--white-color) !important;     
+}
+.partner::after{
+ background-color: var(--red-color) !important;     
+}

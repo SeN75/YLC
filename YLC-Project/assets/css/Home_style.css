@@ -7,7 +7,29 @@
       right: 0;
       background-color: #ffffff;
       margin-bottom: 90px;
+    width: 100%;
+    transition: 1s;
 }
+
+/*saleh*/
+.bColor-T{
+    background-color: transparent;
+}.bColor-0{
+    background-color: #fff;
+}
+.Logo{
+    height: 80px;
+    width: auto;
+}
+.margin-top--100{
+    margin-top: -300px
+}
+#navbar-menu{
+    transition: 0.5s;
+    
+}
+
+/*saleh*/
 
 main{
   margin-top:80px;
@@ -51,7 +73,7 @@ html[dir="rtl"] .curve-dorpdown-border-top {-webkit-clip-path: polygon(0 15%, 10
 
 section{
   position: relative;
-  min-height:90vh;
+/*  min-height:90vh;*/
   z-index: 1;
   padding: 10px 10px 100px 10px;
   border: none !important;
@@ -79,7 +101,10 @@ text-align: center;
   background-color: #ffffff;
   color: #910c11;
 }
-
+.h-w-100-{
+    height: 50%;
+    width:70%;
+}
 html[dir="rtl"] .social-widget{
   position: fixed;
   left: 50px;
@@ -99,23 +124,29 @@ html[dir=""] .social-widget{
 @media (min-width: 768px){
   section div {
     position: relative;
-    margin: 100px 100px 25px 100px;
+/*    margin: 100px 100px 25px 100px;*/
     z-index: 100;
     opacity: 1;
   }  
   .sliderText{
     margin-top:250px; 
   }
-
+.h-w-100-{
+    height: 50%;
+    width:70%;
+}
 }
 @media (min-width: 320px) and (max-width: 700px){
   section div {
     position: relative;
-    margin: 20px 10px;
+/*    margin: 20px 10px;*/
     z-index: 100;
     opacity: 1;
   } 
-
+.h-w-100-{
+    height:100%;
+    width:100%;
+}
 }
 section div h1{
   padding: 20px;
@@ -234,6 +265,7 @@ html[dir=""] section.toRightBefore::before{
   -moz-transform: rotate(4deg) scale(1.7);
   -ms-transform: rotate(4deg) scale(1.7);
   transform: rotate(4deg) scale(1.7);
+    
 }
 html[dir="rtl"] section.toRightBefor::before{
     
@@ -334,7 +366,16 @@ html[dir="rtl"] section.toLeftAfter::after{
 footer{
   min-height: 10vh;
 }
+/*
+.about{
+      background-image: url(../images/About.png);
+    background-size: cover;
+background-position:  center center;
+    min-height: 100%;
+    width: 100%x;
 
+}
+*/
 /*set color for after div*/
 .header::after{
   background-color: var(--white-color) !important;

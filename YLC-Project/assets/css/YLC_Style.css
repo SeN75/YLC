@@ -45,6 +45,9 @@
 .bColor-4 {
     background-color: #414141;
 }
+.bColor-5 {
+    background-color: #f7f7f7;
+}
 
 
 /* -- background color = bColor-   /-- */
@@ -72,8 +75,15 @@
     border-color: #414141;
 }
 
+.border-radius-100-{
+border-radius: 100%;
+}
 
 /* -- border  color = bColor-   /-- */
+/**/
+.height-125{height: 125px}
+.width-125{width: 125px}
+/**/
 
 /* --/ font = font-'type' -- */
 @font-face {
@@ -82,8 +92,15 @@
 }@font-face {
 	font-family: Bukra;
 	src: url("../font/29ltbukraregular.ttf") ;
+}@font-face {
+	font-family: Bukra-bold;
+	src: url("../font/29ltbukrabold.ttf") ;
 }
-
+.font-family-light{
+    font-family: Bukra-light;
+}.font-family-bold{
+    font-family: Bukra-bold;
+}
 * {
 	font-family: Bukra;
 }

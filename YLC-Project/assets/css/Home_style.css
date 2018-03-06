@@ -199,6 +199,8 @@ background: #ffffff url(../images/Header.png) no-repeat center center fixed;
   color: #ffffff;
   opacity: 0.8;
   z-index: -1;
+/*    min-height: 500px*/
+    min-height: 700px;
 }
 
 html[dir="ltr"] .overlayToRight::before,
@@ -404,3 +406,15 @@ background-position:  center center;
 .partner::after{
  background-color: var(--red-color) !important;     
 }
+/* -- from framework -- */
+.btn-secondary{
+    background-color: #fff;
+    color: #9e9e9e;
+    border: 1px solid #9e9e9e;
+}.btn-secondary:hover{
+        border: 1px solid #414141;
+
+    background-color: #fff;
+    color: #414141;
+}
+/* -- from framework -- */

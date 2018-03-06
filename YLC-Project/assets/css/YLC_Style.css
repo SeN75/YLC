@@ -23,7 +23,6 @@
 
 /* -- text color = tColor-   /-- */
 
-
 /* --/ background color = bColor-   -- */
 
 .bColor-0 {
@@ -45,13 +44,13 @@
 .bColor-4 {
     background-color: #414141;
 }
+
 .bColor-5 {
     background-color: #f7f7f7;
 }
 
 
 /* -- background color = bColor-   /-- */
-
 
 /* --/ border color = bColor-   -- */
 
@@ -75,47 +74,103 @@
     border-color: #414141;
 }
 
-.border-radius-100-{
-border-radius: 100%;
+.border-radius-100- {
+    border-radius: 100%;
 }
 
 /* -- border  color = bColor-   /-- */
+
 /**/
-.height-125{height: 125px}
-.width-125{width: 125px}
+
+.height-125 {
+    height: 125px
+}
+
+.width-125 {
+    width: 125px
+}
+
+
+.Contact {
+    width: 100%;
+    height: 35px;
+    border-color: transparent;
+    border-bottom: 0.2px solid rgba(150,150,150,0.4);
+    background-color: transparent;
+       
+
+}
+
+
+.Contact::after {
+    border-color: transparent;
+    border-bottom: 1px solid #fff;
+    opacity:0.8;
+}
+
+.Contact:hover {
+    border-color: transparent;
+    border-bottom: 1px solid #fff;
+}
+
+.Contact::placeholder {
+    color: rgba(250,250,250,0.8);
+    opacity: 0.8;
+}
+
 /**/
 
 /* --/ font = font-'type' -- */
+
 @font-face {
-	font-family: Bukra-light;
-	src: url("../font/29ltbukralight.ttf") ;
-}@font-face {
-	font-family: Bukra;
-	src: url("../font/29ltbukraregular.ttf") ;
-}@font-face {
-	font-family: Bukra-bold;
-	src: url("../font/29ltbukrabold.ttf") ;
-}
-.font-family-light{
     font-family: Bukra-light;
-}.font-family-bold{
+    src: url("../font/29ltbukralight.ttf");
+}
+
+@font-face {
+    font-family: Bukra;
+    src: url("../font/29ltbukraregular.ttf");
+}
+
+@font-face {
+    font-family: Bukra-bold;
+    src: url("../font/29ltbukrabold.ttf");
+}
+
+.font-family-light {
+    font-family: Bukra-light;
+}
+
+.font-family-bold {
     font-family: Bukra-bold;
 }
+
 * {
-	font-family: Bukra;
+    font-family: Bukra;
 }
-h2{
-	font-family: Bukra;
-}h5{
-	font-family: Bukra;
-}h3{
-	font-family: Bukra;
+
+h2 {
+    font-family: Bukra;
 }
-h1{
-	font-family: Bukra;
-}h4{
-	font-family: Bukra;
-}h6{
-	font-family: Bukra;
+
+h5 {
+    font-family: Bukra;
 }
+
+h3 {
+    font-family: Bukra;
+}
+
+h1 {
+    font-family: Bukra;
+}
+
+h4 {
+    font-family: Bukra;
+}
+
+h6 {
+    font-family: Bukra;
+}
+
 /* -- font = font-'type' /-- */

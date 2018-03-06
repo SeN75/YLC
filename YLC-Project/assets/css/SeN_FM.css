@@ -76,7 +76,12 @@
 .margin-top-40 {
     margin-top: 40px;
 }
-
+.margin-top-100{
+    margin-top: 100px;
+}
+.margin-top-120{
+    margin-top:120px;
+}
 .margin-right-1{
     margin-right: 1px !important;
 }
@@ -212,12 +217,18 @@ font-size: 15px;
     font-size: 40px;
 }
 /* -- font size /-- */
-
+/* -- / width -- */
+.width-150{
+    width: 150px;
+}
+/* --  width /-- */
 /* --/ height -- */
 .height-40-{
     height: 40%;
 }
-
+.height-150{
+    height: 150px;
+}
 /* -- height /-- */
 /* --/ min-height --*/
 .min-height-90-vh{

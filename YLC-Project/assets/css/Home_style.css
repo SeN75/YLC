@@ -75,7 +75,7 @@ section{
   position: relative;
 /*  min-height:90vh;*/
   z-index: 1;
-  padding: 10px 10px 100px 10px;
+  padding: 10px 10px 135px 10px;
   border: none !important;
 }
 
@@ -387,6 +387,25 @@ background-position:  center center;
     width: 100%x;
     max-height: 443px;
 
+}
+.News-Pic{
+/*     background-color: #414141;*/
+    background: #414141 url(../images/big/img1.jpg);
+    background-position: center center;
+    background-size: cover ;
+    width: 100%;
+    min-height: 210px;
+    opacity: 1;
+}
+.News-Pic:focus{
+     background-image: none;
+    background-color: #910811;
+    opacity: 1;
+}
+.News-Pic:hover{
+    background-image: none;
+    background-color: #910811;
+    opacity: 1;
 }
 .header::after{
   background-color: var(--white-color) !important;

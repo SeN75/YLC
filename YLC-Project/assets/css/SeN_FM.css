@@ -139,6 +139,9 @@ margin-bottom: 60px
 .padding-30 {
     padding: 30px !important;
 }
+.padding-40{
+    padding: 40px;
+}
 .padding-60{
     padding: 60px;
 }
@@ -198,7 +201,7 @@ margin-bottom: 60px
     padding-bottom: 20px;
 }
 .padding-bottom-30{
-    padding-bottom: 30px
+    padding-bottom: 30px;
 }
 
 /* -- padding /--*/
@@ -237,6 +240,9 @@ font-size: 15px;
 /* --/ height -- */
 .height-40-{
     height: 40%;
+}
+.height{
+    height: auto;
 }
 .height-150{
     height: 150px;

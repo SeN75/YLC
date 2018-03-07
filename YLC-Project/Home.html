@@ -254,12 +254,11 @@
                     <div class="col-12 col-sm-12 col-md-4 col-lg-4">
                         <div class="container">
                             <div class="row">
-                                <div class="col-5 b ">
-                                    <div class=" `
-                                                "
+                                <div class="col-5 border-radius-100- bColor-3 height- height  width-150 ">
+                                   
                                 </div>
                                 <div class="col-7">
-                                    <div class="tColor-1 font-size-15">
+                                    <div class="tColor-1 font-size-15" style="font-size: 15px">
                                         Hussain Abdo Alghamdi 
                                     </div>
                                     <div class="tColor-4">Founder</div>
@@ -272,7 +271,20 @@
         </section>
         <section class="partner toLeftAfter white">
             <div>
-                <h1 class="text-center">Partners & Clients</h1> </div>
+                <h1 class="text-center">Partners & Clients</h1>
+                <div class="Partner container">
+                    <div class="row item">
+                        <img src="assets/images/YLC_TM.png">
+                    </div>   <div class="row item">
+                        <img src="assets/images/YLC_TM.png">
+                    </div>   <div class="row item">
+                        <img src="assets/images/YLC_TM.png">
+                    </div>   <div class="row item">
+                        <img src="assets/images/YLC_TM.png">
+                    </div>
+                   
+                </div>
+            </div>
         </section>
         <section class="red">
             <div>
@@ -322,7 +334,55 @@
                 }
                 , animateOut: 'slideOutDown'
                 , animateIn: 'fadeInUp'
-            })
+            });
+            $('.Partner').owlCarousel({
+                loop: true
+                , margin: 5
+                , responsiveClass: true
+                , responsive: {
+                    0: {
+                        items: 6
+                        , nav: true
+//                        , navText:[#x27;next&#x27;,&#x27;prev&#x27; 
+//                                  ]
+                    },
+                    640:{
+                        items:6
+                        , nav:true
+                    },
+                    1024:{
+                        items:6
+                        , nav:true
+                    }
+                    
+                }
+                
+            });
+        });
+         $(document).ready(function () {
+           $('.Partner').owlCarousel({
+                loop: true
+                , margin: 5
+                , responsiveClass: true
+                , responsive: {
+                    0: {
+                        items: 6
+                        , nav: true
+//                        , navText:[#x27;next&#x27;,&#x27;prev&#x27; 
+//                                  ]
+                    },
+                    640:{
+                        items:6
+                        , nav:true
+                    },
+                    1024:{
+                        items:6
+                        , nav:true
+                    }
+                    
+                }
+                
+            });
         });
     </script>
 </body>

@@ -379,6 +379,15 @@ background-position:  center center;
 }
 */
 /*set color for after div*/
+.program-1{
+     background-image: url(../images/bg-round-ar.png);
+     background-size: cover;
+background-position:  center center;
+    min-height: 100%;
+    width: 100%x;
+    max-height: 443px;
+
+}
 .header::after{
   background-color: var(--white-color) !important;
 }
